@@ -62,7 +62,7 @@ Three alternatives considered, from the same cohorts.
 
 Modeled burden is expected first treatments, not animals already treated. Courses are antimicrobial-exposed head. One animal on a group protocol is one course. Current courses are 0. Proposed courses are 0, because those packages do not administer a drug. Hypothetical courses are 1,033 at the Rojas price of $23.60 per head, and only if effectiveness 0.5 holds. The hypothetical is a what-if for comparison. It is not a recommendation.
 
-The application's own wording: the proposed schedule changes labor cost by $1,109 and does not change modeled disease burden. The hypothetical protocol changes projected total cost by $22,011 if the effectiveness assumption holds. That is not a statement that the plan will save that amount.
+The application's own wording: the proposed schedule changes labor cost by $1,109 and does not change modeled disease burden. The remaining $810 of the $1,919 total increase is veterinary-visit fees — 18 clinical-review packages at $45 each. The hypothetical protocol changes projected total cost by $22,011 if the effectiveness assumption holds. That is not a statement that the plan will save that amount.
 
 ## Optimization results
 

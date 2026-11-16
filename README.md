@@ -149,7 +149,7 @@ Three alternatives from the same cohorts, under the visible assumptions. Full de
 | Proposed schedule | The CP-SAT week. Review slots, no drug | $97,148.85 | 606.1 | 261.6 | 0 |
 | Hypothetical protocol | Not executed. Applied only in this column | $117,240.86 | 577.7 | 261.6 | 1,033 |
 
-- The proposed week changes labor cost by $1,109 and does not change modeled disease burden.
+- The proposed week changes labor cost by $1,109 and does not change modeled disease burden. The remaining $810 of the $1,919 total increase is veterinary-visit fees — 18 clinical-review packages at $45 each.
 - The hypothetical column holds only if effectiveness 0.5 holds. It is not a claim that the plan saves $22,011, and it is not a recommendation.
 - Modeled burden is expected first treatments, not animals already treated. One course is one animal on a group protocol.
 - Current courses are 0. Proposed courses are 0 because those packages do not administer a drug. Hypothetical courses are 1,033 at $23.60 per head.
