@@ -1,0 +1,5 @@
+yard_id,policy,description,pen_check,automatic_metaphylaxis
+PN,status_quo_pen_checks,Daily pen checks on the existing rider rotation. Veterinary review when a rider pulls an animal. No automatic group medication.,scheduled,no
+HS,status_quo_pen_checks,Daily pen checks on the existing rider rotation. Veterinary review when a rider pulls an animal. No automatic group medication.,scheduled,no
+WK,status_quo_pen_checks,Daily pen checks on the existing rider rotation. Veterinary review when a rider pulls an animal. No automatic group medication.,scheduled,no
+PC,status_quo_pen_checks,Daily pen checks on the existing rider rotation. Veterinary review when a rider pulls an animal. No automatic group medication.,scheduled,no

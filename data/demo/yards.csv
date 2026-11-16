@@ -1,0 +1,5 @@
+yard_id,name,region,weight_mean,commingle,staff_hours_per_day,chute_head_per_day,vet_slots_per_day,hospital_pens,labor_cost_per_hour,yard_logit,completeness,cohort_target
+PN,Panhandle North,Northern Texas Panhandle,560,0.55,14,70,3,10,18,0.12,0.72,28
+HS,High Plains South,Southern Texas Panhandle,640,0.28,18,90,4,12,19,-0.08,0.86,26
+WK,Western Kansas,Western Kansas,590,0.4,12,55,2,8,17,0.05,0.78,24
+PC,Prairie Central,Western Kansas,575,0.36,9,40,1,5,17,0.04,0.7,22

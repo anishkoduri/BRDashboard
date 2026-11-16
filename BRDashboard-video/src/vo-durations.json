@@ -1,0 +1,119 @@
+{
+  "gapMs": 0,
+  "narration": "full",
+  "musicBed": false,
+  "shots": [
+    {
+      "id": "hook",
+      "kind": "card",
+      "say": "Every year, bovine respiratory disease costs feedlots millions. In treatment. In lost performance. In cattle that never make it.",
+      "dur": 8.85,
+      "hasAudio": true
+    },
+    {
+      "id": "problem",
+      "kind": "card",
+      "say": "And the people making the calls are doing it with incomplete records and not enough hours in the day.",
+      "dur": 5.34,
+      "hasAudio": true
+    },
+    {
+      "id": "product",
+      "kind": "app",
+      "say": "BRDashboard is the decision aid that turns cattle health data into a plan a yard manager can actually run.",
+      "dur": 6.91,
+      "hasAudio": true
+    },
+    {
+      "id": "watch",
+      "kind": "app",
+      "say": "It watches the first 45 days after arrival. It ranks every lot by risk. And it builds the day's work around the crew and the vet slots you actually have.",
+      "dur": 9.74,
+      "hasAudio": true
+    },
+    {
+      "id": "morning",
+      "kind": "app",
+      "say": "Here's the morning. Lot WK-008, day 3 of 45.",
+      "dur": 5.77,
+      "hasAudio": true
+    },
+    {
+      "id": "drivers",
+      "kind": "app",
+      "say": "One observed first treatment. Four sources. And an uncertainty band of 14 to 22 first treatments per hundred head.",
+      "dur": 8.37,
+      "hasAudio": true
+    },
+    {
+      "id": "generate",
+      "kind": "app",
+      "say": "One click generates today's plan: 100 assignments.",
+      "dur": 3.71,
+      "hasAudio": true
+    },
+    {
+      "id": "unmet",
+      "kind": "app",
+      "say": "Seven reviews stay unmet, and the dashboard says so plainly, because it would rather tell you the truth than hide a gap.",
+      "dur": 6.94,
+      "hasAudio": true
+    },
+    {
+      "id": "cut",
+      "kind": "app",
+      "say": "Cut the crew to 40 percent, and the plan tells you it doesn't fit. 17 lots move off the week.",
+      "dur": 6.43,
+      "hasAudio": true
+    },
+    {
+      "id": "restore",
+      "kind": "app",
+      "say": "Restore the crew, and you get a fresh solve: 100 assignments, 7 unmet,",
+      "dur": 4.92,
+      "hasAudio": true
+    },
+    {
+      "id": "reason",
+      "kind": "app",
+      "say": "and the reason is right there, a vet-slot gap at Prairie Central.",
+      "dur": 4.13,
+      "hasAudio": true
+    },
+    {
+      "id": "steward",
+      "kind": "app",
+      "say": "And the stewardship? Zero antimicrobial courses in the current plan. Zero proposed. Against a hypothetical 1,033.",
+      "dur": 9.26,
+      "hasAudio": true
+    },
+    {
+      "id": "vet",
+      "kind": "app",
+      "say": "The vet stays in charge. Nothing is prescribed without review.",
+      "dur": 4.05,
+      "hasAudio": true
+    },
+    {
+      "id": "honest",
+      "kind": "app",
+      "say": "BRDashboard doesn't pretend the data is perfect. It shows you what it knows, what it assumes, and what it can't decide, and it builds the plan your operation can actually run.",
+      "dur": 10.58,
+      "hasAudio": true
+    },
+    {
+      "id": "docs",
+      "kind": "card",
+      "say": "The full evidence, the methods, and every number are in the technical brief and the demonstration case in the submission docs.",
+      "dur": 6.79,
+      "hasAudio": true
+    },
+    {
+      "id": "close",
+      "kind": "card",
+      "say": "BRDashboard. From cattle health data to better decisions.",
+      "dur": 4.743,
+      "hasAudio": true
+    }
+  ]
+}

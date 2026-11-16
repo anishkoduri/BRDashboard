@@ -1,0 +1,19 @@
+variable,unit,definition,range,missing_policy,source_class
+cohort_id,id,Arrival cohort identifier,unique,required,generated
+yard_id,id,Fictional feedyard,PN HS WK PC,required,generated
+pen_id,id,Pen holding the cohort,yard pen code,required,generated
+arrival_date,date,Day the cohort arrived,ISO date,required,generated
+cohort_size,head,Animals in the cohort,1-500,required; must be positive,generated
+mean_arrival_weight_lb,lb,Mean arrival weight,400-900,unknown widens uncertainty; not treated as heavy,generated
+sex_group,category,"Steer, heifer, mixed, or bull",listed,unknown adds no sex shift,generated
+source_type,category,Procurement pattern,single_ranch auction_mix commingled,unknown is not single-source,generated
+number_of_sources,count,Source groups mixed into the cohort,1-8,unknown adds no commingling credit,generated
+transport_duration_hours,hours,Transit time,0-48,unknown is not a short haul,generated
+vaccination_history,category,What the paperwork says,recorded_complete recorded_partial recorded_none unknown,unknown is not protective,generated
+pen_area_per_head,m^2/head,Pen space per animal. The only density term in the model.,5-40,unknown does not assume spare space,generated
+pen_area_sq_m,m^2,Descriptive total. Not an independent risk term.,positive,optional,generated
+arrival_season,category,Season of arrival,winter spring summer fall,unknown adds no season shift,generated
+detected_first_count,head,Simulated recorded first BRD treatments that day,0-cohort size,absent day means zero recorded events,simulated
+latent_first_count,head,Simulator construct. Not measured disease.,0-cohort size,simulation only,simulated
+inclusive_loss_per_first_treatment,USD,Rojas historical inclusive cost/lost value per morbid animal,user editable,default 151.18 labeled historical,literature-parameter
+prior_metaphylaxis_status,category,Not used as a protective coefficient. Rojas noted incomplete metaphylaxis history.,unknown in the demo,unknown is not evidence of no prior treatment,assumed

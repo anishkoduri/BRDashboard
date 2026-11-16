@@ -1,0 +1,82 @@
+{
+  "hook": {
+    "key": "f04b459dda843138e1383533e66f11588f91375a",
+    "provider": "elevenlabs",
+    "dur": 8.85
+  },
+  "problem": {
+    "key": "6502be4a6e1ecd95cb08347245a84506c088da2c",
+    "provider": "elevenlabs",
+    "dur": 5.34
+  },
+  "product": {
+    "key": "e6f3836f13750b11bb3affa251a5faa2459341a0",
+    "provider": "elevenlabs",
+    "dur": 6.91
+  },
+  "watch": {
+    "key": "b54226e16784c2cedd27e28e24c406fc5b377a75",
+    "provider": "elevenlabs",
+    "dur": 9.74
+  },
+  "morning": {
+    "key": "54d761d4c0d09e716a9e8113d6f9fc79835ba5d4",
+    "provider": "elevenlabs",
+    "dur": 5.77
+  },
+  "drivers": {
+    "key": "fb7cbb4ca6d49ccf45445249fa0f40733b6d95e4",
+    "provider": "elevenlabs",
+    "dur": 8.37
+  },
+  "generate": {
+    "key": "93bb68aa5c413e3e750dc6e6e53abaf3602f2153",
+    "provider": "elevenlabs",
+    "dur": 3.71
+  },
+  "unmet": {
+    "key": "bdd873429a19470a5c6e5f6c78d9aaa65b635f40",
+    "provider": "elevenlabs",
+    "dur": 6.94
+  },
+  "cut": {
+    "key": "aad85d9be36fdef013d60168f2010cecc6c761e6",
+    "provider": "elevenlabs",
+    "dur": 6.43
+  },
+  "restore": {
+    "key": "e06c1bb395ef79a22025755cc14151dfc08d872b",
+    "provider": "elevenlabs",
+    "dur": 4.92
+  },
+  "reason": {
+    "key": "4868e5617110f778a48d714313f03cf6356078a4",
+    "provider": "elevenlabs",
+    "dur": 4.13
+  },
+  "steward": {
+    "key": "432e339fa2d4aa038eaf526ee9773a99fce0f9f3",
+    "provider": "elevenlabs",
+    "dur": 9.26
+  },
+  "vet": {
+    "key": "001484f5fe1afbf4c43757ccc5496b402265a0cd",
+    "provider": "elevenlabs",
+    "dur": 4.05
+  },
+  "honest": {
+    "key": "e08b452eb60e07ef596672d889cb21940a33122a",
+    "provider": "elevenlabs",
+    "dur": 10.58
+  },
+  "docs": {
+    "key": "355cd26dbbeeb3f3bbc9b35ab96d9058922af981",
+    "provider": "elevenlabs",
+    "dur": 6.79
+  },
+  "close": {
+    "key": "c51346e4e359c692639ba85a5489b75d15ea5dd1",
+    "provider": "elevenlabs",
+    "dur": 4.743
+  }
+}

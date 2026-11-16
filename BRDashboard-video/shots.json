@@ -1,0 +1,582 @@
+{
+  "brand": "BRDashboard",
+  "tagline": "From cattle health data to better decisions.",
+  "features": [
+    {
+      "name": "Four-yard set: observed and estimated shown as different numbers",
+      "beat": "product"
+    },
+    {
+      "name": "Priority lot with drivers and research-threshold label",
+      "beat": "drivers"
+    },
+    {
+      "name": "Generate today's plan with OR-Tools, honest solver status",
+      "beat": "unmet"
+    },
+    {
+      "name": "Reduce staff, solver reruns, unmet clinical work stays visible",
+      "beat": "cut"
+    },
+    {
+      "name": "Compare current, proposed, and hypothetical",
+      "beat": "steward"
+    },
+    {
+      "name": "Banner: demonstration data, not a diagnosis, not a prescription",
+      "beat": "honest"
+    }
+  ],
+  "cuts": [
+    {
+      "name": "Move the clock or add a first-treatment count",
+      "reason": "not in the user's scripted sequence; the voiceover is fixed word for word"
+    },
+    {
+      "name": "Change the effectiveness or loss assumption",
+      "reason": "not in the user's scripted sequence; the voiceover is fixed word for word"
+    },
+    {
+      "name": "Export a print summary",
+      "reason": "not in the user's scripted sequence; the close points to the submission docs instead"
+    }
+  ],
+  "theme": {
+    "source": "docs/design-tokens.md (Paper, Ink, Action, Fits, Does not fit, Priority, Warm ground) and frontend/public/fonts (Red Hat Display, Red Hat Mono)",
+    "vignette": 0,
+    "colors": {
+      "bg": "oklch(96% 0.012 95)",
+      "bgDeep": "oklch(96% 0.012 95)",
+      "card": "oklch(93% 0.025 85)",
+      "line": "oklch(20% 0.02 255 / 0.22)",
+      "lineStrong": "oklch(20% 0.02 255 / 0.55)",
+      "text": "oklch(20% 0.02 255)",
+      "textSoft": "oklch(20% 0.02 255)",
+      "textMuted": "oklch(20% 0.02 255 / 0.72)",
+      "accent": "oklch(46% 0.14 255)",
+      "accent2": "oklch(40% 0.08 150)",
+      "accent3": "oklch(34% 0.14 310)",
+      "miss": "oklch(48% 0.16 28)",
+      "captionBg": "oklch(20% 0.02 255 / 0.9)",
+      "captionText": "oklch(96% 0.012 95)"
+    },
+    "fonts": {
+      "sans": "\"Red Hat Display\"",
+      "serif": "\"Red Hat Display\"",
+      "mono": "\"Red Hat Mono\""
+    }
+  },
+  "tts": {
+    "provider": "elevenlabs",
+    "voice": "George (user-supplied recording)"
+  },
+  "voiceover": {
+    "file": "voiceover/source.mp3",
+    "cuts": [
+      0,
+      8.85,
+      14.19,
+      21.1,
+      30.84,
+      36.61,
+      44.98,
+      48.69,
+      55.63,
+      62.06,
+      66.98,
+      71.11,
+      80.37,
+      84.42,
+      95,
+      101.79
+    ]
+  },
+  "gapMs": 0,
+  "app": {
+    "url": "http://127.0.0.1:3000",
+    "channel": "msedge",
+    "width": 1920,
+    "height": 1080,
+    "bg": "#f4f1ea"
+  },
+  "textSwaps": [],
+  "cards": {
+    "docs": {
+      "sheets": [
+        {
+          "title": "Technical brief",
+          "path": "docs/technical_brief.pdf"
+        },
+        {
+          "title": "Demonstration case",
+          "path": "docs/demonstration_case.md"
+        }
+      ],
+      "stack": "Next.js 15 · FastAPI · OR-Tools CP-SAT · SQLite · no model call at runtime"
+    }
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "kind": "card",
+      "say": "Every year, bovine respiratory disease costs feedlots millions. In treatment. In lost performance. In cattle that never make it."
+    },
+    {
+      "id": "problem",
+      "kind": "card",
+      "say": "And the people making the calls are doing it with incomplete records and not enough hours in the day."
+    },
+    {
+      "id": "product",
+      "kind": "app",
+      "say": "BRDashboard is the decision aid that turns cattle health data into a plan a yard manager can actually run.",
+      "do": [
+        {
+          "waitFor": "article.morning-hero h1.hero"
+        },
+        {
+          "waitFor": ".lot-list"
+        },
+        {
+          "settle": 15000
+        },
+        {
+          "cut": true
+        },
+        {
+          "wait": 2600
+        },
+        {
+          "focus": {
+            "sel": "article.morning-hero",
+            "pad": 420,
+            "max": 1.25,
+            "ms": 1400
+          }
+        }
+      ]
+    },
+    {
+      "id": "watch",
+      "kind": "app",
+      "say": "It watches the first 45 days after arrival. It ranks every lot by risk. And it builds the day's work around the crew and the vet slots you actually have.",
+      "do": [
+        {
+          "focus": {
+            "sel": "article.morning-hero",
+            "pad": 90,
+            "max": 1.5,
+            "ms": 900
+          }
+        },
+        {
+          "wait": 3100
+        },
+        {
+          "focus": {
+            "sel": ".lot-list li:nth-child(4) .lot-row > span.figure",
+            "pad": 380,
+            "max": 1.45,
+            "ms": 900
+          }
+        },
+        {
+          "wait": 1900
+        },
+        {
+          "focus": null
+        },
+        {
+          "wait": 250
+        },
+        {
+          "goto": "/planner"
+        },
+        {
+          "focus": {
+            "sel": "#crew",
+            "pad": 420,
+            "max": 1.35,
+            "ms": 900
+          }
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "kind": "app",
+      "say": "Here's the morning. Lot WK-008, day 3 of 45.",
+      "do": [
+        {
+          "focus": null
+        },
+        {
+          "goto": "/"
+        },
+        {
+          "wait": 300
+        },
+        {
+          "cut": true
+        },
+        {
+          "wait": 500
+        },
+        {
+          "click": ".lot-list li:first-child .lot-row"
+        },
+        {
+          "focus": {
+            "sel": "article.morning-hero",
+            "pad": 110,
+            "max": 1.5,
+            "ms": 900
+          }
+        }
+      ]
+    },
+    {
+      "id": "drivers",
+      "kind": "app",
+      "say": "One observed first treatment. Four sources. And an uncertainty band of 14 to 22 first treatments per hundred head.",
+      "do": [
+        {
+          "focus": {
+            "sel": ".drivers",
+            "pad": 70,
+            "max": 1.5,
+            "ms": 900
+          }
+        },
+        {
+          "wait": 6800
+        },
+        {
+          "focus": null
+        },
+        {
+          "hover": "button:has-text(\"Generate today's plan\")"
+        }
+      ]
+    },
+    {
+      "id": "generate",
+      "kind": "app",
+      "say": "One click generates today's plan: 100 assignments.",
+      "do": [
+        {
+          "click": "button:has-text(\"Generate today's plan\")"
+        },
+        {
+          "wait": 300
+        },
+        {
+          "waitFor": "button:enabled:has-text(\"Generate today's plan\")"
+        },
+        {
+          "goto": "/planner"
+        },
+        {
+          "waitFor": "text=Feasible, not proved."
+        }
+      ]
+    },
+    {
+      "id": "unmet",
+      "kind": "app",
+      "say": "Seven reviews stay unmet, and the dashboard says so plainly, because it would rather tell you the truth than hide a gap.",
+      "do": [
+        {
+          "focus": {
+            "sel": "article.focus-plate h1",
+            "pad": 190,
+            "max": 1.5,
+            "ms": 900
+          }
+        },
+        {
+          "wait": 3100
+        },
+        {
+          "focus": {
+            "sel": "p:has(> span.miss) > span.miss",
+            "pad": 380,
+            "max": 1.5,
+            "ms": 900
+          }
+        }
+      ]
+    },
+    {
+      "id": "cut",
+      "kind": "app",
+      "say": "Cut the crew to 40 percent, and the plan tells you it doesn't fit. 17 lots move off the week.",
+      "do": [
+        {
+          "focus": {
+            "sel": "#crew",
+            "pad": 320,
+            "max": 1.5,
+            "ms": 500
+          }
+        },
+        {
+          "slide": {
+            "sel": "#crew",
+            "value": 0.4,
+            "ms": 700,
+            "settle": false
+          }
+        },
+        {
+          "waitFor": "text=moved off the week"
+        },
+        {
+          "focus": {
+            "sel": "article.focus-plate h1",
+            "pad": 190,
+            "max": 1.5,
+            "ms": 700
+          }
+        }
+      ]
+    },
+    {
+      "id": "restore",
+      "kind": "app",
+      "say": "Restore the crew, and you get a fresh solve: 100 assignments, 7 unmet,",
+      "do": [
+        {
+          "focus": {
+            "sel": "#crew",
+            "pad": 320,
+            "max": 1.5,
+            "ms": 500
+          }
+        },
+        {
+          "slide": {
+            "sel": "#crew",
+            "value": 1,
+            "ms": 500,
+            "settle": false
+          }
+        },
+        {
+          "wait": 700
+        },
+        {
+          "skip": true
+        },
+        {
+          "waitFor": "text=Feasible, not proved."
+        },
+        {
+          "wait": 250
+        },
+        {
+          "skip": false
+        },
+        {
+          "focus": {
+            "sel": "article.focus-plate h1",
+            "pad": 190,
+            "max": 1.5,
+            "ms": 600
+          }
+        }
+      ]
+    },
+    {
+      "id": "reason",
+      "kind": "app",
+      "say": "and the reason is right there, a vet-slot gap at Prairie Central.",
+      "do": [
+        {
+          "focus": {
+            "sel": "p:has(> span.miss) > span.miss",
+            "pad": 380,
+            "max": 1.5,
+            "ms": 600
+          }
+        },
+        {
+          "wait": 800
+        },
+        {
+          "focus": null
+        },
+        {
+          "scroll": {
+            "to": "bottom",
+            "ms": 1100
+          }
+        },
+        {
+          "focus": {
+            "sel": ".capacity .tracks:nth-last-child(2) > span.note",
+            "pad": 350,
+            "max": 1.3,
+            "ms": 800
+          }
+        }
+      ]
+    },
+    {
+      "id": "steward",
+      "kind": "app",
+      "say": "And the stewardship? Zero antimicrobial courses in the current plan. Zero proposed. Against a hypothetical 1,033.",
+      "do": [
+        {
+          "focus": null
+        },
+        {
+          "goto": "/decisions"
+        },
+        {
+          "click": "button:has-text(\"Compare with the baseline\")"
+        },
+        {
+          "waitFor": ".totals"
+        },
+        {
+          "wait": 400
+        },
+        {
+          "cut": true
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "focus": {
+            "sel": ".totals > div:nth-child(1) p.figure:not(.total)",
+            "pad": 230,
+            "max": 1.8,
+            "ms": 800
+          }
+        },
+        {
+          "wait": 3400
+        },
+        {
+          "focus": {
+            "sel": ".totals > div:nth-child(2) p.figure:not(.total)",
+            "pad": 230,
+            "max": 1.8,
+            "ms": 800
+          }
+        },
+        {
+          "wait": 1800
+        },
+        {
+          "focus": {
+            "sel": ".totals > div:nth-child(3) p.figure:not(.total)",
+            "pad": 230,
+            "max": 1.8,
+            "ms": 800
+          }
+        }
+      ]
+    },
+    {
+      "id": "vet",
+      "kind": "app",
+      "say": "The vet stays in charge. Nothing is prescribed without review.",
+      "do": [
+        {
+          "focus": {
+            "sel": ".totals > div:nth-child(3) > p.note:last-child",
+            "pad": 240,
+            "max": 1.8,
+            "ms": 700
+          }
+        },
+        {
+          "wait": 1900
+        },
+        {
+          "focus": {
+            "sel": "p:has-text(\"Group-protocol price\")",
+            "fx": [
+              0.33,
+              0.62
+            ],
+            "pad": 200,
+            "max": 1.8,
+            "ms": 800
+          }
+        }
+      ]
+    },
+    {
+      "id": "honest",
+      "kind": "app",
+      "say": "BRDashboard doesn't pretend the data is perfect. It shows you what it knows, what it assumes, and what it can't decide, and it builds the plan your operation can actually run.",
+      "do": [
+        {
+          "focus": null
+        },
+        {
+          "goto": "/evidence"
+        },
+        {
+          "wait": 300
+        },
+        {
+          "cut": true
+        },
+        {
+          "wait": 300
+        },
+        {
+          "focus": {
+            "sel": "p:has-text(\"is a recorded count\")",
+            "pad": 330,
+            "max": 1.5,
+            "ms": 900
+          }
+        },
+        {
+          "wait": 4200
+        },
+        {
+          "focus": {
+            "sel": "header.banner > span:first-child",
+            "pad": 260,
+            "max": 1.8,
+            "ms": 900
+          }
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "focus": null
+        },
+        {
+          "goto": "/"
+        },
+        {
+          "focus": {
+            "sel": "article.morning-hero",
+            "pad": 420,
+            "max": 1.2,
+            "ms": 1400
+          }
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "kind": "card",
+      "say": "The full evidence, the methods, and every number are in the technical brief and the demonstration case in the submission docs."
+    },
+    {
+      "id": "close",
+      "kind": "card",
+      "say": "BRDashboard. From cattle health data to better decisions."
+    }
+  ]
+}

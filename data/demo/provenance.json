@@ -1,0 +1,22 @@
+{
+  "data_mode": "synthetic demonstration",
+  "not": "Merck feedyard observations",
+  "seed": 20261115,
+  "generator_version": "synthetic-1.0.0",
+  "model_version": "brd-assumption-1.0.0",
+  "calibration": {
+    "target_mean_first_treatment": 0.063,
+    "target_share_at_or_above_15pct": 0.1085,
+    "source": "Rojas et al. 2022 cohort summaries, calibration targets only",
+    "generator_intercept": -3.485968348570168,
+    "noise_scale": 0.8,
+    "latent_mean": 0.06299999911393497,
+    "latent_share_at_or_above_15": 0.08,
+    "realized_detected_mean": 0.051838549121612294,
+    "realized_share_at_or_above_15": 0.06,
+    "reference_profile_rate_before_shared_intercept": 0.05,
+    "note": "Matching a published mean is not clinical validation. Assessment does not see cohort noise."
+  },
+  "redistributable": true,
+  "weather": "Synthetic seasonal draws. NASA POWER and NOAA were not called."
+}

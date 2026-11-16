@@ -1,0 +1,16 @@
+{
+  "assessment_intercept": -3.485968348570168,
+  "inclusive_loss_per_first_treatment": 151.18,
+  "inclusive_loss_source": "Rojas et al. 2022 historical scenario figure, not a 2026 quote",
+  "use_inclusive_morbidity_loss": true,
+  "metaphylaxis_cost_per_head": 23.6,
+  "metaphylaxis_cost_source": "Rojas et al. 2022 single-scenario cost, historical",
+  "default_effectiveness": 0.5,
+  "effectiveness_label": "hypothetical scenario knob, not an estimated treatment effect",
+  "labor_cost_per_hour": 18.0,
+  "labor_cost_label": "assumption",
+  "component_treatment_cost": 80.0,
+  "performance_loss_per_case": 70.0,
+  "mortality_loss_per_head": 1400.0,
+  "mortality_forecast": "none \u2014 observed simulator deaths only; no mortality model"
+}
