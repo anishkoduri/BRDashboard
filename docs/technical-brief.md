@@ -36,7 +36,7 @@ The seven unmet reviews. The full-crew solve (staff, chute, and veterinary multi
 
 Binding constraints. At staff multiplier 0.40 the solver returned `INFEASIBLE`, 0 assignments, 24 unmet reviews, and the witness "PC staff hours does not fit PC-022." Seventeen lots moved off the week. Capacity sensitivity (table in the demonstration case): below full crew the solver is infeasible and builds no plan. Crew 0.40, 0.70, and every 0.05 step through 0.95 returned "Does not fit." with 0 assignments and 24 reviews listed. Only at crew 1.00 does it produce a schedule: 100 assignments, 7 unmet, "Feasible, not proved." This is a cliff, not a gradual curve. At full crew the veterinary-slot gap at Prairie Central is the shortage the app names.
 
-Current versus proposed, health, cost, antimicrobials. Under the visible assumptions the proposed week changes labor cost by $1,109 and does not change modeled disease burden.
+Current versus proposed, health, cost, antimicrobials. Under the visible assumptions the proposed week changes labor cost by $1,109 and does not change modeled disease burden. The remaining $810 of the $1,919 total increase is veterinary-visit fees — 18 clinical-review packages at $45 each.
 
 Current approach: projected total $95,230.05, burden 606.1, labor 200.0 hours, antimicrobial courses 0. Proposed schedule: $97,148.85, burden 606.1, labor 261.6 hours, courses 0. Hypothetical group protocol, not executed: $117,240.86, burden 577.7, labor 261.6 hours, courses 1,033, and only if effectiveness 0.5 holds. This is not a claim that the plan saves $22,011.
 
