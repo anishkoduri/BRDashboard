@@ -33,7 +33,7 @@ No paid API, no weather service, and no remote model is called at runtime.
 
 The application code, tests, and these documents were written in Cursor with AI assistance, and the team reviewed and checked all of it. The agent ran the local API and the test suite and copied figures from those runs into `docs/demonstration_case.md` and `docs/technical-brief.md`.
 
-AI tools and models used: Cursor with the hackathon-ecc plugin (its agents, skills, and rules); Grok 4.7 High (`grok-4.7-high`) as orchestrator and design lead; Grok 4.6 High Fast (`cursor-grok-4.6-high-fast`) for fast execution workers, such as the read-only scout; and Claude Sonnet 4.5 (Anthropic) for the final polish prompts on Nov 15, 2026, covering the README, technical brief, demonstration case, and reproducibility fixes.
+AI tools and models used: Cursor with the hackathon-ecc plugin (its agents, skills, and rules); Grok 4.7 High (`grok-4.7-high`) as orchestrator and design lead; Grok 4.6 High Fast (`cursor-grok-4.6-high-fast`) for fast execution workers, such as the read-only scout; and Claude Sonnet (Anthropic) for the final polish prompts on Nov 15, 2026, covering the README, technical brief, demonstration case, and reproducibility fixes.
 
 Division of labor: the concept, approach, decisions, and planning for this submission were the team's own work. AI tools were used only for implementation assistance and documentation drafting under the team's direction, and all results, numbers, and claims were verified by the team before submission.
 
@@ -54,6 +54,6 @@ Work the team did itself:
 
 No other generative model was used to invent scientific results, cohort rows, or economic outcomes. No image generator was used.
 
-The demo video, `demo.mp4` at the root of the submission ZIP, was assembled in Cursor by an AI agent. Playwright filmed the local dashboard, Remotion rendered the cut, and ffmpeg encoded it. The narration is an ElevenLabs text-to-speech recording (voice: George) of the team's script, supplied by the team as an audio file. A local speech-recognition model, faster-whisper, was used only to find the pauses where that recording is cut. None of this is part of the running dashboard.
+The demo video, `demo.mp4` at `BRDashboard/demo.mp4` in the submission ZIP, was assembled in Cursor by an AI agent. Playwright filmed the local dashboard, Remotion rendered the cut, and ffmpeg encoded it. The narration is an ElevenLabs text-to-speech recording (voice: George) of the team's script, supplied by the team as an audio file. A local speech-recognition model, faster-whisper, was used only to find the pauses where that recording is cut. None of this is part of the running dashboard.
 
 If a figure in the brief or the demonstration case disagrees with a fresh solve, the fresh solve is the one to trust. CP-SAT may return `FEASIBLE` or `OPTIMAL` on a repeat. The captured full-crew result is the one in the demonstration case: 7 unmet reviews, with the seventh lot allowed to swap.

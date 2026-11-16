@@ -1,5 +1,7 @@
 # BRDashboard scope
 
+Planning artifact; the final design direction is in `docs/decision-record.md`.
+
 Source: `docs/decision-record.md`. Next step after this file: `feature-expansion` Phases 0–3, then `orchestrate` builds. `orch-build-mvp` does not run in this pass.
 
 Hours left: ~27 (assumption from the 15 Nov 2026, 11:00 PM CST deadline). Time budget: ~9h keep the demo path reliable, ~9h design package and planner polish, ~9h rehearsal, tests, submission docs, slack.

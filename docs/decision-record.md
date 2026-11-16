@@ -37,7 +37,7 @@ Loading marks name the work: four yard chips while the snapshot is read, seven d
 - Centerpiece: Resource Planner / CP-SAT optimizer, not the prediction chart.
 - Scope order: P0 fully working, then P1, then P2 only if stable.
 - Constraints: local-first, free tier, no paid APIs, offline-capable core, do not delete pre-existing files.
-- Demo video: at first the user said do not film and `/demo` stayed off. Later the user invoked `/demo` and supplied the script and a narration recording (`KEY-RECEIPT: no`, no key needed). The 1:49 video is `demo.mp4` at the root of the submission ZIP.
+- Demo video: at first the user said do not film and `/demo` stayed off. Later the user invoked `/demo` and supplied the script and a narration recording (`KEY-RECEIPT: no`, no key needed). The 1:49 video is `demo.mp4` at `BRDashboard/demo.mp4` in the submission ZIP.
 - Build order from the user, after the shortlist was approved: demo-path gaps first (planner shows the solver schedule, the report generates the summary, a failed snapshot says so), then the rest of the approved shortlist, then README, technical brief, demonstration case, AI disclosure, and Playwright. P0 working dashboard before those docs.
 - Deadline risk: the one-yard infeasibility witness is in the planner. At staff 0.40 the recorded sentence is “PC staff hours does not fit PC-022.”
 

@@ -41,7 +41,7 @@
   </a>
 </p>
 
-▶ **Watch:** [demo-small.mp4](https://github.com/anishkoduri/BRDashboard/raw/main/BRDashboard-video/out/demo-small.mp4) (20 MB) · **Full quality (1080p):** [demo.mp4](https://github.com/anishkoduri/BRDashboard/raw/main/BRDashboard-video/out/demo.mp4). The submission ZIP carries the full-quality video at its root as `demo.mp4`. It runs 1:49, is filmed on the local dashboard, and follows the demo path below.
+▶ **Watch:** [demo-small.mp4](https://github.com/anishkoduri/BRDashboard/raw/main/BRDashboard-video/out/demo-small.mp4) (20 MB) · **Full quality (1080p):** [demo.mp4](https://github.com/anishkoduri/BRDashboard/raw/main/BRDashboard-video/out/demo.mp4). The full-quality video is at `BRDashboard/demo.mp4` in the submission ZIP. It runs 1:49, is filmed on the local dashboard, and follows the demo path below.
 
 Local only. After the two processes below are running, the dashboard is [http://127.0.0.1:3000/](http://127.0.0.1:3000/). No deployed URL.
 
@@ -100,8 +100,8 @@ Submission items:
 | Item | Path |
 |---|---|
 | This launch guide | `README.md` |
-| Demo video | `demo.mp4` |
-| Technical brief (3 pages excluding references) | `docs/technical_brief.pdf` and `docs/technical-brief.md` |
+| Demo video | `BRDashboard-video/out/demo.mp4` (the submission ZIP carries it at `BRDashboard/demo.mp4`) |
+| Technical brief (2 pages excluding references) | `docs/technical_brief.pdf` and `docs/technical-brief.md` |
 | Demonstration case | `docs/demonstration_case.md` |
 | AI tools and external resources | `docs/ai_tools_disclosure.md` |
 | Decision record and scope | `docs/decision-record.md`, `docs/scope.md` |
