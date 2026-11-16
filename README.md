@@ -66,6 +66,18 @@ Local only. After the two processes below are running, the dashboard is [http://
 | Crew cut to 0.40 | "Does not fit.", 0 assignments, 24 reviews listed, 17 moved off the week |
 | Antimicrobial courses, current / proposed / hypothetical | 0 / 0 / 1,033 |
 
+## Run the demo
+
+1. Start the API on port 8000, then the dashboard on port 3000, with the launch commands in [Run locally](#run-locally):
+   - API, from `backend`: `..\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000`
+   - Dashboard, from `frontend`: `npm run dev -- --port 3000`
+2. Open [http://127.0.0.1:3000](http://127.0.0.1:3000). Morning view shows WK-008, Day 3 of 45.
+3. Click "Generate today's plan": 100 assignments, 7 unmet reviews, status "Feasible, not proved.", and the solver note "Solver OPTIMAL." or "Solver FEASIBLE.".
+4. Set crew to 0.40: "PC staff hours does not fit PC-022." and "17 moved off the week", 0 assignments, 24 unmet.
+5. Restore crew to 1.00: back to 100 assignments and 7 unmet.
+6. Open Decisions and click "Compare with the baseline": it shows 1,033 courses and $23.60.
+7. Or verify without the UI: run `.\.venv\Scripts\python.exe scripts\reproduce_results.py` from the repository root. Expect `MATCH`.
+
 ## Deliverables
 
 Each rubric item, with where to find it.
